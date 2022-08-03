@@ -10,7 +10,7 @@ import javax.annotation.Resource;
 @SpringBootApplication
 @RestController
 public class DemoApplication {
-	@GetMapping("/")
+	@GetMapping("/home")
 	public String home(){
 		return "hello world!";
 	}
