@@ -12,7 +12,7 @@ import javax.annotation.Resource;
 public class DemoApplication {
 	@GetMapping("/home")
 	public String home(){
-		return "Chuc mung ban da deploy thanh cong nha nnnnn!!";
+		return "Chuc mung ban da deploy thanh cong nha bbbbbba!!";
 	}
 
 	public static void main(String[] args) {
