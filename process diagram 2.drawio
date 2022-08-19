@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T00:44:09.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ZNFXc_BFMYud8UuKGQW7" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-19T03:08:11.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="EDNNrJyL-HFAgsu-nUg_" version="20.2.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1632" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1770" dy="551" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,7 +24,7 @@
         <mxCell id="u42V9gx1YOsnKbqX93Dj-3" value="Send request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-4">
           <mxGeometry x="175" y="420" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u42V9gx1YOsnKbqX93Dj-12" value="Web UI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-4">
+        <mxCell id="u42V9gx1YOsnKbqX93Dj-12" value="OTPA Web App UI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-4">
           <mxGeometry x="200" y="10" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u42V9gx1YOsnKbqX93Dj-13" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;AuthRail Azure AD&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-4">
@@ -198,6 +198,9 @@
             <mxPoint x="80" y="880" as="sourcePoint" />
             <mxPoint x="80" y="910" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="u42V9gx1YOsnKbqX93Dj-73" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;120%;font-family:&amp;quot;Arial&amp;quot;,sans-serif;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&lt;br/&gt;minor-latin;mso-ansi-language:EN-GB;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;EN-GB&quot;&gt;Process View Diagram&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="21" width="149" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
