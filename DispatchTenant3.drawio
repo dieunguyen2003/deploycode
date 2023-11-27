@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T14:21:24.108Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="RiI2iBor-4Tc-IOC3dxm" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-27T14:22:15.010Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="XWrg8Gm8y25eIBj7LCfC" version="22.1.4" type="github">
   <diagram name="Page-1" id="_epDmQ7DwJANLle-jRv4">
     <mxGraphModel dx="1235" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6xLyYXpJQIAbNho7niZt-1" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Tenant Service: Get Tenant By Id, Get list Of Tenants&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+        <mxCell id="6xLyYXpJQIAbNho7niZt-1" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Tenant Service: Create/Update User&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
           <mxGeometry x="33" y="65" width="1042" height="750" as="geometry" />
         </mxCell>
         <mxCell id="6xLyYXpJQIAbNho7niZt-2" value="Actors/Devices/Channels" style="swimlane;html=1;startSize=20;" vertex="1" parent="6xLyYXpJQIAbNho7niZt-1">
