@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T15:20:29.413Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="27cQfWR_n8wgfgw8J6IO" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-27T15:20:42.165Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="6rSaqQd-n0KjDK8Mltkb" version="22.1.4" type="github">
   <diagram name="Page-1" id="ugykTdvBoVu5AX-nfPO2">
     <mxGraphModel dx="1400" dy="697" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6zdOxDiV1tOmim5_Z2FE-1" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Tenant Service: Get Tenant By Id, Get list Of Tenants&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="33" y="65" width="1083" height="638" as="geometry" />
+          <mxGeometry x="33" y="65" width="1032" height="638" as="geometry" />
         </mxCell>
         <mxCell id="6zdOxDiV1tOmim5_Z2FE-2" value="Actors/Devices/Channels" style="swimlane;html=1;startSize=20;" vertex="1" parent="6zdOxDiV1tOmim5_Z2FE-1">
           <mxGeometry y="20" width="160" height="618" as="geometry" />
