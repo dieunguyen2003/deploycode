@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T17:22:17.809Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="22.1.4" etag="Ol2PHHSXxE0-OXzJq0Sy" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-28T04:15:51.669Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hhbZ76A0Jkhm2pfk91p7" version="22.1.4" type="github">
   <diagram name="Page-1" id="DSoPyIWbP55YHacQINM9">
-    <mxGraphModel>
+    <mxGraphModel dx="1235" dy="615" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3KEEtJWLTxbwxkvsGojx-1" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Tenant Service:&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;getLegacyUserGuid&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+          <mxGeometry x="33" y="65" width="1042" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="3KEEtJWLTxbwxkvsGojx-2" value="Legacy DB" style="swimlane;html=1;startSize=20;" vertex="1" parent="3KEEtJWLTxbwxkvsGojx-1">
+          <mxGeometry y="20" width="160" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="3KEEtJWLTxbwxkvsGojx-4" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Data change&lt;br&gt;(insert/update/delete)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="3KEEtJWLTxbwxkvsGojx-2">
+          <mxGeometry x="20" y="65" width="126" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3KEEtJWLTxbwxkvsGojx-8" value="Replication DB(ecRepl)" style="swimlane;html=1;startSize=20;" vertex="1" parent="3KEEtJWLTxbwxkvsGojx-1">
+          <mxGeometry x="160" y="20" width="180" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="3KEEtJWLTxbwxkvsGojx-58" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Insert info into ng-job-event table with action&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="3KEEtJWLTxbwxkvsGojx-8">
+          <mxGeometry x="29" y="69" width="126" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3KEEtJWLTxbwxkvsGojx-20" value="AWS DMS" style="swimlane;html=1;startSize=20;" vertex="1" parent="3KEEtJWLTxbwxkvsGojx-1">
+          <mxGeometry x="340" y="20" width="210" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="3KEEtJWLTxbwxkvsGojx-59" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Push migrate info from &quot;ng-job-event&quot; to Kinesis Stream&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="3KEEtJWLTxbwxkvsGojx-20">
+          <mxGeometry x="33" y="74" width="126" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3KEEtJWLTxbwxkvsGojx-26" value="Kinesis Stream" style="swimlane;html=1;startSize=20;" vertex="1" parent="3KEEtJWLTxbwxkvsGojx-1">
+          <mxGeometry x="550" y="20" width="170" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="3KEEtJWLTxbwxkvsGojx-60" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Receive migrate info&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="3KEEtJWLTxbwxkvsGojx-26">
+          <mxGeometry x="22" y="74" width="126" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3KEEtJWLTxbwxkvsGojx-38" value="Lamda Function" style="swimlane;html=1;startSize=20;" vertex="1" parent="3KEEtJWLTxbwxkvsGojx-1">
+          <mxGeometry x="720" y="20" width="160" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="3KEEtJWLTxbwxkvsGojx-61" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Send migrate info tp&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="3KEEtJWLTxbwxkvsGojx-38">
+          <mxGeometry x="17" y="76" width="126" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3KEEtJWLTxbwxkvsGojx-42" value="Opensearch" style="swimlane;html=1;startSize=20;" vertex="1" parent="3KEEtJWLTxbwxkvsGojx-1">
+          <mxGeometry x="880" y="20" width="162" height="750" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
