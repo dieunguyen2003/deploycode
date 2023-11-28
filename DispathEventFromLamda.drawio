@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T06:16:11.657Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="B0D5SJHhLib7a6YX_Teo" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-28T06:17:43.550Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="S4w4C3kARB7gXOF12Vkx" version="22.1.4" type="github">
   <diagram name="Page-1" id="OnJqiludFoY-sZaQwvLX">
-    <mxGraphModel dx="1050" dy="1623" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1500" dy="1847" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="XhpjdkoIOFLHljBu7FBK-1" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Event From Lamda to React App Process&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
-          <mxGeometry x="554" y="-120" width="987" height="770" as="geometry" />
+          <mxGeometry x="554" y="-120" width="994" height="661" as="geometry" />
         </mxCell>
         <mxCell id="XhpjdkoIOFLHljBu7FBK-2" value="Lamda Function" style="swimlane;html=1;startSize=20;" parent="XhpjdkoIOFLHljBu7FBK-1" vertex="1">
-          <mxGeometry y="20" width="189" height="750" as="geometry" />
+          <mxGeometry y="20" width="189" height="641" as="geometry" />
         </mxCell>
         <mxCell id="Ff-u6peA7xUDQHJ1vlSC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XhpjdkoIOFLHljBu7FBK-2" source="XhpjdkoIOFLHljBu7FBK-4">
           <mxGeometry relative="1" as="geometry">
@@ -41,7 +41,7 @@
           <mxGeometry x="38" y="472" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XhpjdkoIOFLHljBu7FBK-6" value="DMS" style="swimlane;html=1;startSize=20;" parent="XhpjdkoIOFLHljBu7FBK-1" vertex="1">
-          <mxGeometry x="189" y="20" width="214" height="750" as="geometry" />
+          <mxGeometry x="189" y="20" width="219" height="641" as="geometry" />
         </mxCell>
         <mxCell id="XhpjdkoIOFLHljBu7FBK-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="XhpjdkoIOFLHljBu7FBK-6" source="XhpjdkoIOFLHljBu7FBK-13" target="XhpjdkoIOFLHljBu7FBK-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -53,10 +53,10 @@
           <mxGeometry x="62" y="327" width="95" height="51" as="geometry" />
         </mxCell>
         <mxCell id="XhpjdkoIOFLHljBu7FBK-17" value="Event Bus" style="swimlane;html=1;startSize=20;" parent="XhpjdkoIOFLHljBu7FBK-1" vertex="1">
-          <mxGeometry x="403" y="20" width="186" height="750" as="geometry" />
+          <mxGeometry x="408" y="20" width="186" height="641" as="geometry" />
         </mxCell>
         <mxCell id="XhpjdkoIOFLHljBu7FBK-21" value="AppSync/GraphQL" style="swimlane;html=1;startSize=20;" parent="XhpjdkoIOFLHljBu7FBK-1" vertex="1">
-          <mxGeometry x="589" y="20" width="220" height="750" as="geometry" />
+          <mxGeometry x="594" y="20" width="221" height="641" as="geometry" />
         </mxCell>
         <mxCell id="XhpjdkoIOFLHljBu7FBK-23" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;filter event by detail type and source&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="XhpjdkoIOFLHljBu7FBK-21" vertex="1">
           <mxGeometry x="-159" y="472" width="130" height="60" as="geometry" />
@@ -81,7 +81,7 @@
           <mxGeometry x="42" y="569" width="119.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XhpjdkoIOFLHljBu7FBK-25" value="React App" style="swimlane;html=1;startSize=20;" parent="XhpjdkoIOFLHljBu7FBK-1" vertex="1">
-          <mxGeometry x="809" y="20" width="176" height="750" as="geometry" />
+          <mxGeometry x="815" y="20" width="176" height="641" as="geometry" />
         </mxCell>
         <mxCell id="XhpjdkoIOFLHljBu7FBK-40" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Receive submition info real time&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="XhpjdkoIOFLHljBu7FBK-25" vertex="1">
           <mxGeometry x="24" y="567" width="114" height="50" as="geometry" />
